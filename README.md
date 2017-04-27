@@ -10,7 +10,7 @@ CheckConnectivity library checks the internet connection and it is written in sw
 ### CocoaPods
 
 ```ruby
-pod 'CheckConnectivity', :git => 'https://github.com/vishakhajadhav/CheckConnectivity.git', :tag => '1.0.6'
+pod 'CheckConnectivity', :git => 'https://github.com/vishakhajadhav/CheckConnectivity.git', :tag => '1.0.4'
 ```
 
 #### Note:
@@ -20,7 +20,7 @@ Add ```import CheckConnectivity``` in your swift file
 ## Example
 To check internet connection before calling any webservice
 
-E.g. : ```swift
+E.g. : swift
 if CheckConnectivity.hasConnectivity() { }
 ```
 ```

@@ -21,8 +21,5 @@ Pod::Spec.new do |s|
   s.source_files  = "CheckConnectivity", "CheckConnectivity/**/*.{h,m,swift}"
 
   s.framework =  'SystemConfiguration'
-  s.pod_target_xcconfig = {
-    'SWIFT_VERSION' => '2.3',
-  } 
-
+ 
 end
