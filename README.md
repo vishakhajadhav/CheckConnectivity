@@ -1,0 +1,2 @@
+# CheckConnectivity
+Checks internet connection
