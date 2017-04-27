@@ -10,7 +10,7 @@ CheckConnectivity library checks the internet connection and it is written in sw
 ### CocoaPods
 
 ```ruby
-pod 'CheckConnectivity', :git => 'https://github.com/vishakhajadhav/CheckConnectivity.git', :tag => '1.0.4'
+pod 'CheckConnectivity', :git => 'https://github.com/vishakhajadhav/CheckConnectivity.git', :tag => '1.0.5'
 ```
 
 #### Note:
