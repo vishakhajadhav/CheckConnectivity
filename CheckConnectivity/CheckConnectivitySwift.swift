@@ -12,9 +12,9 @@ import UIKit
 //import netinet/in.h>
 //#import <SystemConfiguration/SystemConfiguration.h>
 
-class CheckConnectivitySwift: NSObject {
+public class CheckConnectivitySwift: NSObject {
 
-    static let sharedInstance: CheckConnectivitySwift = {
+    public static let sharedInstance: CheckConnectivitySwift = {
         let instance = CheckConnectivitySwift()
         return instance
     }()
@@ -26,7 +26,7 @@ class CheckConnectivitySwift: NSObject {
     /* =============================================================
     // Connectivity testing code
     =============================================================== */
-    class func hasConnectivity() -> Bool {
+public class func hasConnectivity() -> Bool {
 
         var zeroAddress = sockaddr_in()
         zeroAddress.sin_len = UInt8(MemoryLayout<sockaddr_in>.size)
