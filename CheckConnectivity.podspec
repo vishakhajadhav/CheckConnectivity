@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "CheckConnectivity"
 
-  s.version      = "1.0.8"
+  s.version      = "1.0.9"
 
   s.summary      = "Checks Connectivity."
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/vishakhajadhav/CheckConnectivity.git", :tag => "1.0.8" }
+  s.source       = { :git => "https://github.com/vishakhajadhav/CheckConnectivity.git", :tag => "1.0.9" }
 
   s.source_files  = "CheckConnectivity", "CheckConnectivity/**/*.{h,m,swift}"
 
