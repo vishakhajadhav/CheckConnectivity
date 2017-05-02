@@ -25,4 +25,3 @@ if CheckConnectivity.hasConnectivity() { }
 ```
 ```
 
-
